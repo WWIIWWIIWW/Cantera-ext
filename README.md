@@ -2,19 +2,29 @@
 ## Introduction
 
 Cantera extension program is developed for Phoenix Biopower, Stockholm, Sweden.
-current version is for windows user only, if you need a version for Linux,
+
+Current version is for windows user only, if you need a version for Linux,
+
 Email: Kai.Zhang.1@city.ac.uk
 
 ## Planned Works:
 
 (a) Extra graphical grid towards calculation of single mixture chosen at interface.
-(b) throw error when users enter incorrect input.
-(c) report 1D solution at different residence time, rather than only at flame front.
+
+(b) Throw error when users enter incorrect input.
+
+(c) Report 1D solution at different residence time, rather than only at flame front.
+
 (d) Group all needed libraries into one single executable package.
+
 (e) CRN implementation
+
 (f) Parallel calculation
+
 (g) Automatic residence time refienment for 0D extinction.
+
 (h) Add automatic plots for achieved datasets.
+
 
 ## Installation (assuming you have installed conda, refer to instruction)
 
