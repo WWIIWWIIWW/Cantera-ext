@@ -1,22 +1,25 @@
-conda update --force conda
-conda install -c anaconda git
 1. Install conda for windows at below address:
 https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html
-2. Open Anaconda terminal, Create conda environment plus py3.7 e.g. cantera:
+2. Open Anaconda terminal, update conda:
+conda update --force conda
+3. Create conda environment plus py3.7 e.g. cantera:
 conda create -n cantera -c anaconda python=3.7
-3. Activate cantera environment:
+4. Activate cantera environment:
 conda activate cantera
-4. Install cantera package:
+5. Install cantera package:
 conda install --channel cantera/label/dev cantera
-5. Install numpy package:
+6. Install numpy package:
 conda install -c anaconda numpy
-6. Install pandas package:
+7. Install pandas package:
 conda install -c anaconda pandas
-7. Install several extra package, I don't know why, but without these you will meet errors:
+8. Install several extra package, I don't know why, but without these you will meet errors:
 conda install -c anaconda xlrd
 conda install -c anaconda openpyxl
-8. Switch yourself to directory where you have downloaded my code. In the folder where you have V3.py, just run in terminal with:
-python V3.py
+#############################
+Switch yourself to directory where you have downloaded my code. 
+In the folder where you have V3.py, just run in terminal with:
+
+->python V3.py
 
 It should work now. If not, update your visual studio to a version compatable with py37.
 Otherwise, contact me: Kai.Zhang.1@city.ac.uk
