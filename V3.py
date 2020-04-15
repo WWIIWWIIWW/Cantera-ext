@@ -196,8 +196,8 @@ def zeroD_extinction(data_name, specifier, mech, T_inlet, P_inlet, func_):
         csv_file   = "0D_extinction_simplified.csv"      
         excel_file = "0D_extinction_simplified.xlsx"
         header     = list(original_data.columns.values) + ["T_b (K)"] + ["cnt"] + ["tres (s)"] + ["HRR (W/m-3)"] + ["CO_ppmvd"] + ["NOx_ppmvd"] + ["NO_NO2_ppmvd"]
-        solution   = [list(original_data.values[i]) + [temp[i]] + [cnt[i]] + [tau[i]] + [hrr[i]] + [co[i]] + [nox[i]] + [no_no2[i]] for i in range(len(original_data))]
-        write(original_data, csv_file, excel_file, header, solution)
+        solution   = [list(data_values[i]) + [temp[i]] + [cnt[i]] + [tau[i]] + [hrr[i]] + [co[i]] + [nox[i]] + [no_no2[i]] for i in range(len(data_values))]
+        write(data_values, csv_file, excel_file, header, solution)
     else:
         exit ()
 
