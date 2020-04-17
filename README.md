@@ -21,7 +21,7 @@ Email: Kai.Zhang.1@city.ac.uk
 
 (f) Parallel calculation
 
-(g) Automatic residence time refienment for 0D extinction.
+(g) Automatic residence time refienment for 0D extinction. (Featured added in V4.py)
 
 (h) Add automatic plots for achieved datasets.
 
