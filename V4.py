@@ -119,7 +119,7 @@ def zeroD_extinction(data_name, specifier, mech, T_inlet, P_inlet, func_):
 
         # Run a loop over decreasing residence times, until the reactor is extinguished,
         # saving the state after each iteration.
-        states = ct.SolutionArray(gas, extra=['tres', 'HRR', 'CO_ppmvd', 'NOx_ppmvd', 'NO_ppmvd', 'NO2_ppmvd', 'NO/NO2_ppmvd'])
+        states = ct.SolutionArray(gas, extra=['tres', 'HRR', 'CO_ppmvd', 'NOx_ppmvd', 'NO_ppmvd', 'NO2_ppmvd', 'NO_NO2_ppmvd'])
         sim.advance_to_steady_state()
 
         while abs(r1.T - float(T_inlet)) <= 100:
@@ -236,7 +236,7 @@ if __name__ == '__main__':
     import os
     import cantera as ct
     #from tools import *
-    from ctext import *
+    from tools import *
     try:
         func_, data_name, specifier, T_inlet, P_inlet, mech = variables
     except:
