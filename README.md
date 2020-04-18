@@ -1,4 +1,10 @@
 # Cantera-ext
+## New features in Version 4:
+(a) 0_D extinction calculation speed is greatly increased.
+
+(b) A calculator is added to calculate species LHV.
+
+(c) NO and NO2 ppmvd at 15%O2 level is exported.
 ## Introduction
 
 Cantera extension program is developed for Phoenix Biopower, Stockholm, Sweden.
@@ -21,9 +27,7 @@ Email: Kai.Zhang.1@city.ac.uk
 
 (f) Parallel calculation
 
-(g) Automatic residence time refienment for 0D extinction. (Featured added in V4.py)
-
-(h) Add automatic plots for achieved datasets.
+(g) Add automatic plots for achieved datasets.
 
 
 ## Installation (assuming you have installed conda, refer to instruction)
