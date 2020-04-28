@@ -1,10 +1,14 @@
 # Cantera-ext
-## New features in Version 4:
+## New features in Version 5 (against V3):
 (a) 0_D extinction calculation speed is greatly increased.
 
 (b) A calculator is added to calculate species LHV.
 
 (c) NO and NO2 ppmvd at 15%O2 level is exported.
+
+(d) Parallel calculation of 1D flame enabled. Change nProcs to fit your PC.
+
+(e) A bug fix is done, 'idx_OH' must be used when retriving 1D flame ppmvd at flame front.
 ## Introduction
 
 Cantera extension program is developed for Phoenix Biopower, Stockholm, Sweden.
@@ -25,9 +29,7 @@ Email: Kai.Zhang.1@city.ac.uk
 
 (e) CRN implementation
 
-(f) Parallel calculation
-
-(g) Add automatic plots for achieved datasets.
+(f) Add automatic plots for achieved datasets.
 
 
 ## Installation (assuming you have installed conda, refer to instruction)
